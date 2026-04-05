@@ -1,0 +1,13 @@
+# Windows Event Log Extractor - Dependencies
+# Run: pip install -r requirements.txt
+
+# Required on Windows for live log reading
+pywin32>=306; sys_platform == "win32"
+
+# Optional: enhanced EVTX file parsing (cross-platform)
+# python-evtx>=0.7.4
+
+# Note: tkinter is included in the standard Python distribution.
+# If it's missing (some Linux distros), install via:
+#   sudo apt install python3-tk   (Ubuntu/Debian)
+#   sudo dnf install python3-tkinter  (Fedora/RHEL)
